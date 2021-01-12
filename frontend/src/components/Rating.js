@@ -4,16 +4,54 @@ const Rating = ({value, text}) => {
     return (
         <div className='rating'>
            <span>
-               
-            <i className={
+                <i className={
                 value >= 1 
                 ? 'fas fa-star' 
                 : value >=0.5 
                 ? 'fas fa-star-alt' 
                 : 'far fa-star'}>
-                    
+
                 </i>
-            
+            </span> 
+            <span>
+                <i className={
+                value >= 1 
+                ? 'fas fa-star' 
+                : value >=0.5 
+                ? 'fas fa-star-alt' 
+                : 'far fa-star'}>
+
+                </i>
+            </span> 
+            <span>
+                <i className={
+                value >= 1 
+                ? 'fas fa-star' 
+                : value >=0.5 
+                ? 'fas fa-star-alt' 
+                : 'far fa-star'}>
+
+                </i>
+            </span> 
+            <span>
+                <i className={
+                value >= 1 
+                ? 'fas fa-star' 
+                : value >=0.5 
+                ? 'fas fa-star-alt' 
+                : 'far fa-star'}>
+
+                </i>
+            </span> 
+            <span>
+                <i className={
+                value >= 1 
+                ? 'fas fa-star' 
+                : value >=0.5 
+                ? 'fas fa-star-alt' 
+                : 'far fa-star'}>
+
+                </i>
             </span> 
         </div>
     )
